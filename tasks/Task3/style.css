@@ -1,0 +1,191 @@
+#container 
+{   width: 95%; 
+    margin: 0 auto; 
+    text-align: left;
+ }
+
+body{
+    background-image: linear-gradient(to right,rgb(214, 45, 96),purple);
+}
+#header{
+    width: 90%;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 3%;
+}
+
+#header button{
+    background-color: rgb(255, 166, 0);
+    padding: 0 5.3%;
+    font-size: xx-large;
+    font-family: Calibri;
+    font-weight: bolder;
+    margin-top: 1%;
+    border-style: hidden;  
+    /* padding: 0 60px; */
+}
+#header button a{
+      color: black;
+    text-decoration: none;
+}
+#firstSection{
+    width: 90%;
+    height: 400px;
+    margin-top: 3%;
+}
+#div1{
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+#div1 #text1{
+    width: 33%;
+    height: 10%;
+    background-color: rgb(255, 166, 0);
+    padding: 0 5px;
+    font-family: Calibri;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-left: 8%;
+    margin-top: 24%;
+}
+#div1 #text2{
+    width: 19%;
+    height: 5%;
+    background-color: rgb(255, 166, 0);
+    padding: 0 1px;
+    text-align: center;
+    font-family: Calibri;
+    font-weight: bolder;
+    margin-left: 8%;
+    margin-top: 2%;
+}
+
+.div2{
+    float: right;
+    background-color:rgb(255, 166, 0) ;
+    width: 38%;
+    height: 47%;
+    margin-bottom: 2%;
+}
+.priceClass{
+    text-align: center;
+    font-family: Calibri;
+    font-weight: lighter;
+    font-size:xx-large;
+    margin-top: 16%;
+}
+.foodClass{
+    text-align: center;
+    font-family: Calibri;
+    font-weight: bold;
+}
+
+#secondSection{
+    width: 90%;
+    height: 150px;
+    margin-top: 2%;
+}
+#secondSection .feature{
+    background-color: white;
+    width: 24%;
+    height: 100%;
+    float: left;
+    margin-right: 1%;
+}
+#secondSection .feature .icon{
+    font-size: 250%;
+    margin: 0 43%;
+}
+#secondSection .feature h3{
+    text-align: center;
+    font-size:medium;
+    line-height: 0px;
+}
+#secondSection .feature p{
+    padding: 0 9%;
+    text-align: center;
+    line-height: 13px;
+    font-size: medium;
+}
+#thirdSection{
+    width: 90%;
+    height: 200px;
+    background-color: white;
+    margin-top: 2%;
+}
+.thirdSectionClass1{
+    float: left;
+    width: 30%;
+    height: 100%;
+    margin-right: 10%;
+}
+.thirdSectionClass1 #p1{
+    font-size: large;
+    font-family: Calibri;
+    font-weight: bolder;
+    margin: 25%;}
+
+
+.thirdSectionClass1 #p2{
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: Calibri;
+    margin-top: 13%;
+} 
+.thirdSectionClass1 .p3{
+    font-family: Calibri;
+    font-weight: bolder;
+    margin-top: 2%;
+}
+.thirdSectionClass1 button{
+    background-color:rgb(255, 166, 0);
+    border: yellow;
+    margin-top: 3%;
+    padding:2% 8%;
+}
+.thirdSectionClass1 button a{
+    color: black;
+    text-decoration: none;   
+}
+
+#fourthSection{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 90%;
+}
+
+#fourthSection h3{
+    padding: 0px 10px;
+    min-width: 150px;
+    font-family: Calibri;
+}
+
+#fourthSection .after{
+    height: 15px;
+    width: 100%;
+    background: rgb(255, 166, 0);
+    background-color: linear-gradient(to right,rgb(214, 45, 96),rgb(255, 166, 0));
+}
+#fourthSection .before{
+    height: 15px;
+    width: 100%;
+    background: rgb(255, 166, 0);
+    background-color: linear-gradient(to right,rgb(214, 45, 96),rgb(255, 166, 0));
+}
+.photos {
+    padding-top: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .photos img {
+    width: 24%;
+    height: 300px;
+    margin-bottom: 10px;
+  }
+  

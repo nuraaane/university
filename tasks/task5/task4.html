@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #secondTitle {
+            text-align: center;
+            margin: 2% 0;
+            color: rgb(128, 0, 128);
+        }
+
+        #secondTable {
+            width: 90%;
+            height: 300px;
+            margin: 2% auto;
+            text-align: left;
+            border-collapse: collapse;
+            box-shadow: 10px 9px 18px 10px gray;
+        }
+
+        .secondTr:nth-child(even) {
+            background-color: rgb(228, 98, 217);
+            border: 1px solid rgb(128, 0, 128);
+            border-left: none;
+            border-right: none;
+        }
+
+        .secondTr:hover {
+            background-color: rgb(192, 72, 182);
+        }
+
+        .secondTh {
+            font-size: larger;
+            font-family: Calibri;
+            font-weight: bold;
+        }
+
+        .secondTd {
+            margin-left: 7px;
+        }
+
+        .secondCheck {
+            margin: 0 5%;
+            cursor: pointer;
+        }
+        .text2{
+            font-size: medium;
+            font-family: Calibri;
+            font-weight: lighter;
+}
+    </style>
+    <title>Table</title>
+</head>
+
+<body>
+    <div>
+        <div>
+            <!-- External version: -->
+            <h1 id="firstTitle">External version</h1>
+            <div>
+                <table id="firstTable">
+                    <tr class="firstTr">
+                        <th class="firstTh">Order</th>
+                        <th class="firstTh">Name</th>
+                        <th class="firstTh">Occupation</th>
+                        <th class="firstTh">Contact</th>
+                        <th class="firstTh">Education</th>
+                    </tr>
+                    <tr class="firstTr">
+                        <td class="firstTd">
+                            <form class="firstForm">
+                                <input type="radio" id="choice1" class="firstCheck">
+                                <label for="choice1">1392</label>
+                            </form>
+                        </td>
+                        <td class="firstTd">James Yates</td>
+                        <td>Web Designer
+                            <p class="text1">Far far away,behind the word mountains</p>
+                        </td>
+                        <td class="firstTd">+23232423423423</td>
+                        <td class="firstTd">NY University</td>
+                    </tr class="firstTr">
+                    <tr class="firstTr">
+                        <td class="firstTd">
+                            <form>
+                                <input type="radio" id="choice2" class="firstCheck">
+                                <label for="choice2">4616</label>
+                            </form>
+                        </td>
+                        <td class="firstTd">Matthew Wasil</td>
+                        <td class="firstTd">Graphic Designer
+                            <p class="text1">Far far away,behind the word mountains</p>
+                        </td>
+                        <td class="firstTd">+23232423423423</td>
+                        <td class="firstTd">London College</td>
+                    </tr>
+                    <tr class="firstTr">
+                        <td class="firstTd">
+                            <form>
+                                <input type="radio" id="choice3" class="firstCheck">
+                                <label for="choice3">9841</label>
+                            </form>
+                        </td>
+                        <td class="firstTd">Samphson Murphy</td>
+                        <td class="firstTd">Mobile Dev
+                            <p class="text1">Far far away,behind the word mountains</p>
+                        </td>
+                        <td class="firstTd">+23232423423423</td>
+                        <td class="firstTd">Senior High</td>
+                    </tr>
+                    <tr class="firstTr">
+                        <td class="firstTd">
+                            <form>
+                                <input type="radio" id="choice4" class="firstCheck">
+                                <label for="choice4">9548</label>
+                            </form>
+                        </td>
+                        <td class="firstTd">Gasper Semenov</td>
+                        <td class="firstTd">Illustrator
+                            <p class="text1">Far far away,behind the word mountains</p>
+                        </td>
+                        <td class="firstTd">+23232423423423</td>
+                        <td class="firstTd">College</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Internal version: -->
+        <h1 id="secondTitle">Internal version</h1>
+        <div>
+            <table id="secondTable">
+                <tr class="secondTr">
+                    <th class="secondTh">Order</th>
+                    <th class="secondTh">Name</th>
+                    <th class="secondTh">Occupation</th>
+                    <th class="secondTh">Contact</th>
+                    <th class="secondTh">Education</th>
+                </tr>
+                <tr class="secondTr">
+                    <td class="secondTd">
+                        <form class="secondForm">
+                            <input type="radio" id="choice1" class="secondCheck">
+                            <label for="choice1">1392</label>
+                        </form>
+                    </td>
+                    <td class="secondTd">James Yates</td>
+                    <td>Web Designer
+                        <p class="text2">Far far away,behind the word mountains</p>
+                    </td>
+                    <td class="secondTd">+23232423423423</td>
+                    <td class="secondTd">NY University</td>
+                </tr class="secondTr">
+                <tr class="secondTr">
+                    <td class="secondTd">
+                        <form>
+                            <input type="radio" id="choice2" class="secondCheck">
+                            <label for="choice2">4616</label>
+                        </form>
+                    </td>
+                    <td class="secondTd">Matthew Wasil</td>
+                    <td class="secondTd">Graphic Designer
+                        <p class="text2">Far far away,behind the word mountains</p>
+                    </td>
+                    <td class="secondTd">+23232423423423</td>
+                    <td class="secondTd">London College</td>
+                </tr>
+                <tr class="secondTr">
+                    <td class="secondTd">
+                        <form>
+                            <input type="radio" id="choice3" class="secondCheck">
+                            <label for="choice3">9841</label>
+                        </form>
+                    </td>
+                    <td class="secondTd">Samphson Murphy</td>
+                    <td class="secondTd">Mobile Dev
+                        <p class="text2">Far far away,behind the word mountains</p>
+                    </td>
+                    <td class="secondTd">+23232423423423</td>
+                    <td class="secondTd">Senior High</td>
+                </tr>
+                <tr class="secondTr">
+                    <td class="secondTd">
+                        <form>
+                            <input type="radio" id="choice4" class="secondCheck">
+                            <label for="choice4">9548</label>
+                        </form>
+                    </td>
+                    <td class="secondTd">Gasper Semenov</td>
+                    <td class="secondTd">Illustrator
+                        <p class="text2">Far far away,behind the word mountains</p>
+                    </td>
+                    <td class="secondTd">+23232423423423</td>
+                    <td class="secondTd">College</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- Inline version: -->
+    <h1 style=" text-align: center;margin: 2% 0;color: rgb(7, 29, 5);">Inline version</h1>
+    <div>
+        <table
+            style="width: 90%;height: 300px;margin: 2% auto;text-align: left;border-collapse: collapse;box-shadow: 10px 9px 18px 10px gray;">
+            <tr style="background-color: rgb(159, 241, 138);border: 1px solid rgb(19, 94, 1);border-left: none;border-right: none;">
+                <th>Order</th>
+                <th>Name</th>
+                <th>Occupation</th>
+                <th>Contact</th>
+                <th>Education</th>
+            </tr>
+            <tr style="background-color: rgb(159, 241, 138);border: 1px solid rgb(19, 94, 1);border-left: none;border-right: none;">
+                <td style=" margin-left: 7px;">
+                    <form>
+                        <input type="radio" id="choice1" style="margin: 0 5%;cursor: pointer;">
+                        <label for="choice1">1392</label>
+                    </form>
+                </td>
+                <td style=" margin-left: 7px;">James Yates</td>
+                <td>Web Designer
+                    <p style="font-size: medium;font-family: Calibri;font-weight: lighter;">Far far away,behind the word mountains</p>
+                </td>
+                <td style=" margin-left: 7px;">+23232423423423</td>
+                <td style=" margin-left: 7px;">NY University</td>
+            </tr >
+            <tr style="background-color: rgb(159, 241, 138);border: 1px solid rgb(19, 94, 1);border-left: none;border-right: none;">
+                <td style=" margin-left: 7px;">
+                    <form>
+                        <input type="radio" id="choice2" style="margin: 0 5%;cursor: pointer;">
+                        <label for="choice2">4616</label>
+                    </form>
+                </td>
+                <td style=" margin-left: 7px;">Matthew Wasil</td>
+                <td style=" margin-left: 7px;">Graphic Designer
+                    <p style="font-size: medium;font-family: Calibri;font-weight: lighter;">Far far away,behind the word mountains</p>
+                </td>
+                <td style=" margin-left: 7px;">+23232423423423</td>
+                <td style=" margin-left: 7px;">London College</td>
+            </tr>
+            <tr style="background-color: rgb(159, 241, 138);border: 1px solid rgb(19, 94, 1);border-left: none;border-right: none;">
+                <td style=" margin-left: 7px;">
+                    <form>
+                        <input type="radio" id="choice3" style="margin: 0 5%;cursor: pointer;">
+                        <label for="choice3">9841</label>
+                    </form>
+                </td>
+                <td style=" margin-left: 7px;">Samphson Murphy</td>
+                <td style=" margin-left: 7px;">Mobile Dev
+                    <p>Far far away,behind the word mountains</p>
+                </td>
+                <td style=" margin-left: 7px;">+23232423423423</td>
+                <td>Senior High</td>
+            </tr>
+            <tr style="background-color: rgb(159, 241, 138);border: 1px solid rgb(19, 94, 1);border-left: none;border-right: none;">
+                <td style="margin-left: 7px;">
+                    <form>
+                        <input type="radio" id="choice4" style="margin: 0 5%;cursor:pointer;">
+                        <label for="choice4">9548</label>
+                    </form>
+                </td>
+                <td style=" margin-left: 7px;">Gasper Semenov</td>
+                <td style=" margin-left: 7px;">Illustrator
+                    <p style="font-size: medium;font-family: Calibri;font-weight: lighter;">Far far away,behind the word mountains</p>
+                </td>
+                <td style=" margin-left: 7px;">+23232423423423</td>
+                <td style=" margin-left: 7px;">College</td>
+            </tr>
+        </table>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>

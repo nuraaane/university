@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script language="Javascript">
+        var y, a, x, b, w;
+        a = parseFloat(prompt("Enter a", ""));
+        b = parseFloat(prompt("Enter b", ""));
+        x = parseFloat(prompt("Enter x", ""));
+        y = (a * x + Math.cos(b * x)) / (b * x - Math.exp(-x) * Math.sin(b * x) + 1);
+        w = y * Math.exp(2 * x) * Math.log(a + x) - Math.pow(b, (2 * x) * Math.log(b - x));
+        alert("y=" + y);
+        alert("w=" + w);
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
